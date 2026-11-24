@@ -1,0 +1,26 @@
+{
+  "company": "Ryvqena Tech is a technology company focused on engineering intelligent digital solutions, developing software products and solving real-world problems. Tagline: Technology Beyond the Expected. The company is early in its journey and says so.",
+  "services": [
+    { "id": "web", "name": "Web Development", "text": "Modern, responsive and scalable websites and web applications: company and product sites, web apps and dashboards, with accessibility, SEO and performance as defaults, plus APIs and integrations." },
+    { "id": "ai", "name": "Artificial Intelligence", "text": "Intelligent solutions, automation and AI-powered systems: plain-language understanding, workflow automation and AI features inside existing products, with honest scoping of what AI can and cannot do." },
+    { "id": "mobile", "name": "Mobile Applications", "text": "Phone-first mobile apps for Android and iOS, with clear flows, touch-friendly design and low-bandwidth thinking." },
+    { "id": "software", "name": "Software Systems", "text": "Custom business and operations software: data models, reporting, workflows, secure and scalable foundations, with documentation and handover." },
+    { "id": "consulting", "name": "IT Consulting", "text": "Technology strategy and roadmaps, digital transformation planning, solution architecture review and practical vendor-neutral advice." }
+  ],
+  "products": [
+    { "id": "garidoc", "name": "GariDoc", "status": "Live demo", "text": "A vehicle health hub for drivers in Kenya. Describe a car problem in plain English or Swahili and get likely causes, an urgency label and a rough cost estimate in Kenyan shillings. It also decodes OBD-II fault codes, lists garages you can send a booking request to, keeps a service log with a QR code and sets reminders. Estimates are rough and a mechanic must inspect the car before any repair.", "href": "#/garidoc" },
+    { "id": "vouchify", "name": "Vouchify", "status": "In development", "text": "A digital vouching system: an institution issues a credential once and anyone who needs to trust it can check it instantly. It is in development and not available to the public yet.", "href": "#/vouchify" },
+    { "id": "learning", "name": "Ryvqena Academy (Learning Hub)", "status": "Beta", "text": "A free learning area at #/academy with two beginner courses, AI and Machine Learning Fundamentals and Cloud Architecture Basics, each with four lessons and a quick check after every lesson. Passing all checks unlocks a printable certificate of completion, which is not an accredited qualification. Progress is saved in the visitor's own browser; there are no accounts yet." },
+    { "id": "earthtrace", "name": "EarthTrace", "status": "Concept", "text": "An environmental intelligence dashboard idea covering air quality, atmospheric composition, ocean health and biodiversity. It is a concept, not a released product." }
+  ],
+  "team": [
+    { "name": "Allan Mogunde", "role": "CEO" },
+    { "name": "Allan Jason", "role": "COO" },
+    { "name": "Irene Kiragu", "role": "Head of Sales and Business Development" },
+    { "name": "Natasha Mugo", "role": "Financial Administrator" },
+    { "name": "Phoebe Mathenge", "role": "Chief Financial Officer" },
+    { "name": "Nduta Gitau", "role": "Human Resources" }
+  ],
+  "contact": { "email": "ryvqenatech@gmail.com", "phone": "+254 181 167 607", "whatsapp": "https://wa.me/254181167607" },
+  "unknown": "Prices, quotes, timelines, office address, past clients and results are not published. Never invent them. Say the team will answer and point to the contact form, email or WhatsApp."
+}

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Ryvqena Tech | Enquiries</title>
+  <link rel="stylesheet" href="/admin/admin.css" />
+</head>
+<body>
+  <header class="bar">
+    <h1>Enquiries</h1>
+    <div class="actions">
+      <select id="filter" aria-label="Filter by status">
+        <option value="">All</option><option value="new">New</option><option value="read">Read</option><option value="replied">Replied</option><option value="archived">Archived</option>
+      </select>
+      <button id="refresh" type="button">Refresh</button>
+      <button id="csv" type="button">Export CSV</button>
+      <button id="logout" type="button">Sign out</button>
+    </div>
+  </header>
+  <main>
+    <p id="msg" role="status"></p>
+    <div id="login" hidden>
+      <form id="login-form">
+        <label for="token">Admin token</label>
+        <input id="token" type="password" autocomplete="off" required />
+        <button type="submit">Sign in</button>
+      </form>
+    </div>
+    <ul id="list" class="list"></ul>
+  </main>
+  <script src="/admin/admin.js" defer></script>
+</body>
+</html>

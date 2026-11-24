@@ -1,0 +1,19 @@
+*{box-sizing:border-box}
+body{margin:0;font:16px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;background:#f4f7fb;color:#0b1b3a}
+.bar{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;padding:16px 20px;background:#0b1b3a;color:#fff}
+.bar h1{margin:0;font-size:1.1rem}
+.actions{display:flex;gap:8px;flex-wrap:wrap}
+button,select,input{font:inherit;padding:8px 12px;border:1px solid #c9d4ea;border-radius:8px;background:#fff;color:#0b1b3a}
+button{cursor:pointer;background:#1d4ed8;color:#fff;border-color:#1d4ed8}
+.bar select{background:#fff}
+main{max-width:980px;margin:0 auto;padding:20px}
+#msg{min-height:1.5em;color:#44536f}
+#login form{display:grid;gap:10px;max-width:360px;margin:40px auto}
+.list{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.item{background:#fff;border:1px solid #d7e0f1;border-radius:12px;padding:16px}
+.item header{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:baseline;justify-content:space-between}
+.item h2{margin:0;font-size:1.05rem}
+.meta{color:#44536f;font-size:.9rem}
+.msgtext{white-space:pre-wrap;margin:10px 0 0;overflow-wrap:anywhere}
+.badge{display:inline-block;padding:2px 10px;border-radius:999px;background:#e6eeff;font-size:.8rem}
+.badge.new{background:#ffe9b8}

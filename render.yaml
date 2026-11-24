@@ -1,0 +1,29 @@
+services:
+  - type: web
+    name: ryvqena-tech
+    runtime: node
+    plan: starter            # a persistent disk (to keep enquiries) needs a paid instance on Render
+    buildCommand: npm install --include=dev && npm run build
+    startCommand: node --no-warnings backend/server.js
+    healthCheckPath: /api/health
+    disk:
+      name: ryvqena-data
+      mountPath: /data
+      sizeGB: 1
+    envVars:
+      - key: NODE_VERSION
+        value: 22
+      - key: DATA_DIR
+        value: /data
+      - key: TRUST_PROXY
+        value: "1"
+      - key: ADMIN_TOKEN
+        generateValue: true
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: RESEND_API_KEY
+        sync: false
+      - key: MAIL_FROM
+        sync: false
+      - key: NOTIFY_TO
+        sync: false
